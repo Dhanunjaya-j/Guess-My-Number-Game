@@ -1,0 +1,146 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Silkscreen;
+
+}
+
+header div {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media only screen and (min-width:720px) and (max-width:1020px) {
+    header div {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media only screen and (min-width:240px) and (max-width:720px) {
+    header div {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+header {
+    border: 5px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-bottom: 50px;
+}
+
+@media only screen and (min-width:720px) and (max-width:1020px) {
+    header h1 {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width:240px) and (max-width:720px) {
+    header h1 {
+        text-align: center;
+    }
+}
+
+
+.again {
+    padding: 10px;
+    width: 150px;
+    font-size: 30px;
+    margin: 10px;
+    font-family: Silkscreen;
+}
+
+.between {
+    font-size: 30px;
+    font-family: Silkscreen;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: Silkscreen;
+}
+
+.secret {
+    text-align: center;
+    font-size: 60px;
+    background-color: red;
+    color: white;
+    width: 100px;
+    position: relative;
+    left: 650px;
+    top: 115px;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: Silkscreen;
+
+
+}
+
+@media only screen and (min-width:720px) and (max-width:1020px) {
+    header .secret {
+        left: 380px;
+        top: 115px;
+    }
+}
+
+@media only screen and (min-width:240px) and (max-width:720px) {
+    header .secret {
+        left: 180px;
+        top: 115px;
+    }
+}
+
+
+main {
+    display: flex;
+    justify-content: space-around;
+}
+
+main .left .guess {
+    padding: 20px;
+    width: 150px;
+    display: block;
+    margin-bottom: 10px;
+
+}
+
+main .checkGuess {
+    padding: 10px;
+    font-size: 20px;
+    width: 100px;
+    margin-left: 20px;
+    font-family: Silkscreen;
+
+}
+
+main .message {
+    font-size: 20px;
+}
+
+main .label-score {
+    font-size: 20px;
+}
+
+main .label-highscore {
+    font-size: 20px;
+}
+
+@media only screen and (min-width:720px) and (max-width:1020px) {
+    main {
+        display: flex;
+        justify-content: space-around;
+
+    }
+}
+
+@media only screen and (min-width:240px) and (max-width:720px) {
+    main {
+        display: flex;
+        justify-content: space-around;
+
+    }
+}

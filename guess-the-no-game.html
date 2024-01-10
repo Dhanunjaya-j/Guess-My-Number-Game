@@ -1,0 +1,40 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./guess-the-no-game.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Silkscreen&display=swap"
+        rel="stylesheet">
+    
+</head>
+
+<body>
+    <header>
+        <div>
+            <button class="again" id="again">Again!</button>
+            <p class="between">(Between 1 and 20)</p>
+        </div>
+        <h1>Guess My Number</h1>
+        <p class="secret" id="secret">?</p>
+        
+    </header>
+    <main>
+        <section class="left">
+            <input type="number" name="guess" class="guess" id="guess">
+            <button id="checkguess" class="checkGuess" >Check!</button>
+        </section>
+        <section class="right">
+            <p class="message">Start Guessing...</p>
+            <p class="label-score">Score: <span class="score">20</span></p>
+            <p class="label-highscore">Highscore: <span class="highscore" id="highscore">0</span></p>
+        </section>
+
+    </main>
+</body>
+<script src="./guess-the-no-game.js"></script>
+
+</html>
